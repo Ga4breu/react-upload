@@ -16,7 +16,7 @@ const Header = () => {
               <img src={sistema} alt="sistema nortesul" />
             </TransformComponent>
           </TransformWrapper>
-        <h4 className='texto-img'>Imagem Ampliável</h4>
+        <h4 className='texto-img' id="Header">Imagem Ampliável</h4>
         </div>
         </div>
         <div className='paragrafos1'>

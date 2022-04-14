@@ -30,8 +30,8 @@ return (
           <img src={logo} alt='Isee' />
         </div>
         <div className="gpt3__navbar-links_container" style={{gap:'20px'}}>
-            <p><a href="#home">Caso base</a></p>
-            <p><a href="#header">Carga alta</a></p>
+            <p><a href="#Header">Caso base</a></p>
+            <p><a href="#Brand">Carga alta</a></p>
             <p><a href="#features">Carga baixa</a></p>
             <p><a href="#possibility">Contingências</a></p>
         </div>
