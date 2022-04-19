@@ -8,38 +8,88 @@ body {
 }
 .gpt3__navbar {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height:20vh;
-    padding: 1rem 2rem;
+    flex-direction: row;
+    height:15vh;
+    padding: 1vw 2vh;
+
 }
-p + p{
-    margin-top: 4vh;
-   }
+.milagre {
+    display:flex;
+    flex-direction: row;
+    gap:3vw;
+}
+
 
 .gpt3__navbar-links {
-    margin-top:0rem;
+    margin-top:-2vh;
     flex: 1;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    gap:2vw;
 }
 .gpt3__navbar-links a:hover{
- color: red;
+ color: rgb(221, 36, 36);
 }
 
 .gpt3__navbar-links_logo {
-    margin-top:2.3rem;
-    margin-right: 2rem;
+    margin-top:5.5vh;
+    margin-right: 2vw;
 }
 
 .gpt3__navbar-links_logo img {
-    width:9rem;
+    height:19vh;
 }
 
 .gpt3__navbar-links_container {
     display: flex;
     flex-direction: row;
+}
+.contingencias-button button{
+        
+        background-color: rgba(131, 131, 131, 0.171);
+        height:5vh;
+        font-size: 2.8vh;
+        color:#fff;
+        width: 15vw;
+        border-radius: 20px;
+        border: none;
+        margin-top:2vh;
+        z-index: 1001;
+      
+
+}
+.contingencias-button{
+    display:flex;
+    flex-direction: column;
+    margin-top:0vh;
+
+    align-items: center;
+    width:12vw;
+    right:43vw;
+    top:7.2vh;
+
+}
+.contingencias-button a:hover{
+    color: #ff2f00;
+}
+.funcaoconting{
+    background-color: rgba(73, 71, 71, 0.856);
+    margin-top:7vh;
+    position:absolute;
+    height: 18vh;
+    border-radius: 5px;  
+    margin-left: 0vw;
+}
+.itemconting{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    width:12vw;
+    margin-top: 1vh;
+    font-size: 2vh;
 }
                                 .funcaonome{
                                     background-color: rgba(44, 44, 44, 0.527);
@@ -52,7 +102,7 @@ p + p{
                                     flex-direction: column;
                                     top:7vh;
                                     right:6vw;
-                                    margin-top:0vh;
+                                    margin-top:-2vh;
                                     position:absolute;
                                     align-items: center;
                                     z-index: 1001;
@@ -105,15 +155,15 @@ p + p{
     background: #ff2f00;
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.2vw;
+    line-height: 3vh;
     border: none;
     outline: none;
     cursor: pointer;
     border-radius: 5px;
 }
 .gpt3__navbar-menu {
-    margin-left: 1rem;
+    margin-left: 50vw;
 
     display: none;
     position: relative;
@@ -151,6 +201,9 @@ p + p{
 @media screen and (max-width: 1050px) {
     .gpt3__navbar-links_container {
         display: none;
+    }
+    .contingencias-button{
+        display:none;
     }
 
     .gpt3__navbar-menu {
