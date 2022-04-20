@@ -1,17 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.aec583ca.css",
-    "main.js": "/static/js/main.2d258daf.js",
+    "main.css": "/static/css/main.5b10c94c.css",
+    "main.js": "/static/js/main.867d435f.js",
     "static/media/cargalevetunado.svg": "/static/media/cargalevetunado.2e21933c6b7c546f82aea0b5b3b735d1.svg",
+    "static/media/Samambaia2.svg": "/static/media/Samambaia2.86ef094f2268d820f594c4d0e2cca251.svg",
+    "static/media/Samambaia1.svg": "/static/media/Samambaia1.4ff4db9201261e8e71922d3429b8fbbb.svg",
     "static/media/sistema.svg": "/static/media/sistema.83008b3194016cdad0f61be3a621db4e.svg",
+    "static/media/result.svg": "/static/media/result.d055f2d29b367538bd10947b15db7b95.svg",
+    "static/media/Trafos2.svg": "/static/media/Trafos2.301ec7ce16a9cbd4a69c88fa03547079.svg",
+    "static/media/Trafos3.svg": "/static/media/Trafos3.0a753746779d212c7d71958121f6c7f7.svg",
+    "static/media/Trafos1.svg": "/static/media/Trafos1.6bf8dc96b3bc77296cabfe8b60f44dc4.svg",
+    "static/media/result2.svg": "/static/media/result2.77d423fbd11038b6f549ee7cf74fb0a2.svg",
+    "static/media/gbmunhoz2.png": "/static/media/gbmunhoz2.f794740bb271e560e01e.png",
     "static/media/tabelapng.png": "/static/media/tabelapng.acafb6883d5561f14951.png",
+    "static/media/gbmunhoz1.png": "/static/media/gbmunhoz1.b2b19fa34103ee4c5da0.png",
     "static/media/logo.svg": "/static/media/logo.644d8a1485c71b21943eb4d2b9120b5d.svg",
     "index.html": "/index.html",
-    "main.aec583ca.css.map": "/static/css/main.aec583ca.css.map",
-    "main.2d258daf.js.map": "/static/js/main.2d258daf.js.map"
+    "main.5b10c94c.css.map": "/static/css/main.5b10c94c.css.map",
+    "main.867d435f.js.map": "/static/js/main.867d435f.js.map"
   },
   "entrypoints": [
-    "static/css/main.aec583ca.css",
-    "static/js/main.2d258daf.js"
+    "static/css/main.5b10c94c.css",
+    "static/js/main.867d435f.js"
   ]
 }
