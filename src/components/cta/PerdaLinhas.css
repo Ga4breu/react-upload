@@ -1,6 +1,7 @@
 .pss-body{
     display:inline-block;
-    width:100vw;
+    width:99vw;
+    padding-bottom:2vh;
     background-color: rgba(87, 87, 87, 0.37);
   }
   .pss-content{
@@ -16,14 +17,21 @@
     padding:2%;
     border-radius: 20px;
     margin-bottom: 10vh;
+    margin-top: 10vh;
+
   }
   .pss-body img{
     width:30vw;
     height:40vh;
     margin-left:5vw;
-    margin-top:30vh;
+    margin-top:2vh;
+    margin-bottom:2vh;
     border-radius: 2rem;
-    border: 4px solid rgb(156, 41, 41);
-    background-color: white;
     margin-right:2vw;
+    padding-bottom:2vh;
+    padding-top:2vh;
   }
+.imgwrapper-pss{
+  padding-bottom:2vh;
+  padding-top:2vh;
+}

@@ -1,11 +1,19 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+
 .cargaleve-body{
   background:rgba(87, 87, 87, 0.37);
   display:inline-block;
-  width:100vw;
+  width:99vw;
 }
 .cargaleve-content{
-  gap:5vw;
-  display:flex;
+  gap:10vw;
+  display:inline-block;
 }
 .cargalevetexto{
   color:white;
@@ -20,10 +28,10 @@
   width:40vw;
   height:60vh;
   margin-left:5vw;
-  margin-top:5vh;
-  margin-right:5vw;
+  
+  margin-bottom:5vh;
   border-radius: 2rem;
   border: 4px solid rgb(156, 41, 41);
   background-color: white;
-  margin-right:2vw;
+
 }

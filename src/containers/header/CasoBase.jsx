@@ -7,8 +7,7 @@ const Header = () => {
   return (
     <div className='isee_header_padding'>
       <div className='isee_header-conteudo'>
-        <h3 className='texto_gradiente'>Este blog compila os resultados do estudo de um sistema de potência em regime permanente da disciplina de Introdução aos Sistemas de Energia Elétrica – ISEE, do curso de Engenharia Elétrica da Universidade Estadual do Oeste do Paraná, Os objetivos deste trabalho são 
-          A partir disso, o estudo foi desenvolvido no sistema de 65 barras Sul-Sudeste (ALVES, 2007) seguindo os critérios estabelecidos pelo ONS e com auxílio da ferramenta computacional ANAREDE.  </h3>
+        <h3 className='texto_gradiente'>Este blog compila os resultados do estudo de um sistema de potência em regime permanente da disciplina de Introdução aos Sistemas de Energia Elétrica – ISEE, do curso de Engenharia Elétrica da Universidade Estadual do Oeste do Paraná. O grupo é formado por quatro integrantes: Bruno Oliveira, Gabriel Abreu, Leonardo Nizer e Rafael Marodin (na guia “Quem somos” há mais informações sobre cada integrante). O objetivo deste trabalho é realizar uma análise sistêmica e, a partir disso, extrair informações relevantes para levantar hipóteses fundamentadas na teoria de sistemas de potência nas situações problemáticas propostas. Essas hipóteses foram postas para validação, buscando identificar as relações causa-efeito com base no raciocínio indutivo. </h3>
         <div className='pointer'>
         <BsArrowRight size={70} /></div>
         <div className='isee_header-image'>

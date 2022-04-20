@@ -1,6 +1,7 @@
 import React from 'react'
 import './CargaSamambaia.css'
-import sistema from '../../assets/sistema.svg';
+import samambaia1 from '../../assets/Samambaia1.svg';
+import samambaia2 from '../../assets/Samambaia2.svg';
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 const Possibilities = () => {
   return (
@@ -18,7 +19,12 @@ const Possibilities = () => {
         <div className="imgwrapper-cargasamambaia">
         <TransformWrapper>
                 <TransformComponent>
-                  <img src={sistema} alt="sistema nortesul"/>
+                  <img src={samambaia1} alt="sistema nortesul"/>    
+                </TransformComponent>
+              </TransformWrapper>
+              <TransformWrapper>
+                <TransformComponent>
+                  <img src={samambaia2} alt="sistema nortesul"/>
                 </TransformComponent>
               </TransformWrapper>
         </div>

@@ -1,6 +1,8 @@
 import React from 'react'
 import './PerdaTrafos.css'
-import sistema from '../../assets/sistema.svg';
+import trafo1 from '../../assets/Trafos1.svg';
+import trafo2 from '../../assets/Trafos2.svg';
+import trafo3 from '../../assets/Trafos3.svg';
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 const Blog = () => {
   return (
@@ -15,14 +17,12 @@ Desse modo, foi aumentada a geração de potência ativa em Salto Osório para o
             <h4>Ainda, após o corte de carga, duas linhas ficaram sobrecarregadas e trabalharam em emergência, como é mostrado nas linhas hachuradas da Figura 3. Também é mostrado o percentual de carregamento de cada linha, sendo uma linha com 109% e outra em 101% do seu carregamento normal. </h4>
         </div>
         <div className="imgwrapper-pt">
-        <TransformWrapper>
-                <TransformComponent>
-                  <img src={sistema} alt="sistema nortesul"/>
-                </TransformComponent>
-              </TransformWrapper>
+              <img src={trafo1} alt="sistema nortesul"/>
+              <img src={trafo2} alt="sistema nortesul"/>
+              <img src={trafo3} alt="sistema nortesul"/>
+            </div>
         </div>
     </div>
-  </div>
   )
 }
 

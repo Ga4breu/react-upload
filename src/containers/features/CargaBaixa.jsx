@@ -16,10 +16,10 @@ const Features = () => {
           <div className="imgblock-cargaleve">
             <div className="imgwrapper-cargaleve">
             <TransformWrapper>
-                    <TransformComponent>
-                      <img src={leve} alt="leve"/>
-                    </TransformComponent>
-                  </TransformWrapper>
+              <TransformComponent>
+                <img src={leve} alt="leve"/>
+              </TransformComponent>
+            </TransformWrapper>
             </div>
       </div>
     </div>

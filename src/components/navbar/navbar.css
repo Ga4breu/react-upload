@@ -5,6 +5,7 @@
   }
 body {
     overflow-y: scroll;
+    width:99vw;
 }
 .gpt3__navbar {
     display: flex;
@@ -59,11 +60,14 @@ body {
       
 
 }
+.contingencias-button button:hover{
+    color:red;
+    cursor:pointer;
+}
 .contingencias-button{
     display:flex;
     flex-direction: column;
     margin-top:0vh;
-
     align-items: center;
     width:12vw;
     right:43vw;
@@ -71,13 +75,12 @@ body {
 
 }
 .contingencias-button a:hover{
-    color: #ff2f00;
-}
+    color: #ff2f00;}
 .funcaoconting{
     background-color: rgba(73, 71, 71, 0.856);
     margin-top:7vh;
     position:absolute;
-    height: 18vh;
+    height: 21vh;
     border-radius: 5px;  
     margin-left: 0vw;
 }

@@ -1,0 +1,31 @@
+.gb-body{
+    background:rgba(87, 87, 87, 0.37);
+    display:inline-block;
+    width:99vw;
+  }
+  .gb-content{
+    gap:5vw;
+    display:inline-block;
+  }
+  .gbtexto{
+    color:white;
+    width: 92vw;
+    margin-left: 3vw;
+    background-color: rgba(245, 88, 88, 0.459);
+    padding:2%;
+    border-radius: 20px;
+    margin-bottom: 10vh;
+  }
+  .gb-body img{
+    width:40vw;
+    height:50vh;
+    margin-left:5vw;
+    margin-bottom:5vh;
+    border-radius: 2rem;
+    border: 4px solid rgb(156, 41, 41);
+    background-color: white;
+  }
+  .imgblock-gb{
+    display:inline-block;
+    margin-left:2vw;
+  }
