@@ -29,3 +29,9 @@
     display:inline-block;
     margin-left:2vw;
   }
+
+  @media screen and (max-width: 650px){
+    .gb-body{
+      width: 100vw;;
+    }
+  }

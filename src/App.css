@@ -143,3 +143,9 @@
     padding:4rem;
   }
   }
+  @media screen and (max-width:700px){
+   .texto_gradiente{
+     margin-right:5vw;
+     width:90vw;
+   }
+  }

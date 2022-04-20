@@ -35,3 +35,19 @@
   padding-bottom:2vh;
   padding-top:2vh;
 }
+
+@media screen and (max-width: 650px){
+  .pss-content{
+    display:inline-block;
+  }
+  .psstexto{
+    width: 90vw;
+  }
+  .pss-body{
+    width:100vw;
+  }
+  .imgwrapper-pss{
+    margin-left: 25vw;
+
+  }
+}

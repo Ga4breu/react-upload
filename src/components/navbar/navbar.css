@@ -50,7 +50,7 @@ body {
         
         background-color: rgba(131, 131, 131, 0.171);
         height:5vh;
-        font-size: 2.8vh;
+        font-size: 2.2vh;
         color:#fff;
         width: 15vw;
         border-radius: 20px;
@@ -80,7 +80,7 @@ body {
     background-color: rgba(73, 71, 71, 0.856);
     margin-top:7vh;
     position:absolute;
-    height: 21vh;
+    height: 22vh;
     border-radius: 5px;  
     margin-left: 0vw;
 }
@@ -130,7 +130,7 @@ body {
     color: #fff;
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 2.2vh;
     line-height: 25px;
     text-transform: capitalize;
 
@@ -201,6 +201,9 @@ body {
     display: none;
 }
 
+
+
+
 @media screen and (max-width: 1050px) {
     .gpt3__navbar-links_container {
         display: none;
@@ -211,6 +214,12 @@ body {
 
     .gpt3__navbar-menu {
         display: flex;
+        right: 15vw;
+        top:2vh;
+    }
+    .gpt3__navbar-menu_container-links-sign{
+        display:flex;
+        flex-direction: column;
     }
 }
 
@@ -220,9 +229,9 @@ body {
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
     .gpt3__navbar {
-        padding: 2rem;
+        padding: 1rem;
     }
 
     .gpt3__navbar-sign {
@@ -234,6 +243,12 @@ body {
     }
 
     .gpt3__navbar-menu_container-links-sign {
-        display: block;
+        display: flex;
+        margin-right: 40vw;
     }
+    .nomes-mobile{
+        margin-right:-40vw;
+        margin-top:10vh;
+    }
+
 }

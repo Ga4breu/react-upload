@@ -6,7 +6,7 @@ import './navbar.css';
 
 
 /* Items --> do botão quem somos. */
-const items = [<p className='itemsp'><a href='https://www.linkedin.com/in/bruno-oliveira-47a56b237'>Bruno de O. Santos</a></p>,
+const items = [<p className='itemsp'><a href='https://www.linkedin.com/in/bruno-oliveira-47a56b237' target="_blank">Bruno de O. Santos</a></p>,
 <p className='itemsp'><a href="https://www.linkedin.com/in/gabriel-s-de-abreu-a040161b7/" target="_blank">Gabriel S. de Abreu</a></p>,
 <p className='itemsp'><a href="https://www.linkedin.com/in/leonardo-d-37328a12a/" target="_blank">Leonardo A. Nizer</a></p>,
 <p className='itemsp'><a href="https://www.linkedin.com/in/Rafael-Conte-Marodin" target="_blank">Rafael C. Marodin</a></p>];
@@ -121,10 +121,12 @@ return (
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
           <button type="button" onClick={()=> setShow(!show)}>Quem somos?</button>
+              <div className='nomes-mobile'>
               {show?<p><a href="https://www.linkedin.com/in/bruno-oliveira-47a56b237" target="_blank">Bruno de O. Santos</a></p>:null}
               {show?<p ><a href="https://www.linkedin.com/in/gabriel-s-de-abreu-a040161b7/" target="_blank">Gabriel S. de Abreu</a></p>:null}
               {show?<p><a href="https://www.linkedin.com/in/leonardo-d-37328a12a/" target="_blank">Leonardo A. Nizer</a></p>:null}
               {show?<p><a href="https://www.linkedin.com/in/Rafael-Conte-Marodin" target="_blank">Rafael C. Marodin</a></p>:null}
+              </div>
             </div>
           </div>
         )}

@@ -23,8 +23,27 @@
     border-radius: 2rem;
     background-color: none;
     margin-right:2vw;
+    margin-top: 10vh;
   }
 
-  .imgwrapper-cargasamambaia{
-    gap:2vh;
+  
+  @media screen and (max-width: 650px) {
+    .csamambaia-content{
+      display:block;
+      
+    }
+    .cssamambaia-body{
+      width:100vw;
+    }
+    .cargasamambaiatexto{
+      width:90vw;
+    }
+    .csamambaia-body img{
+      height: 30vh;
+      width:50vw;
+      padding-right:0vw;
+    }
+    .imgwrapper-cargasamambaia{
+      margin-left:20vw;
+    }
   }

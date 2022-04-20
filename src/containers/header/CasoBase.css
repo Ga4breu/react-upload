@@ -13,8 +13,9 @@
     background-color:rgba(87, 87, 87, 0.37);
     display: flex;
     flex-direction: column;
-    width:99vw;
+    width:100vw;
 }
+
 .isee_header-conteudo{
     margin-top: 10vh;
     gap:5vh;
@@ -60,7 +61,7 @@
     border-radius: 20px;
     margin-bottom:15vh;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
     .isee_header-conteudo{
         display: block;
     }
@@ -72,8 +73,9 @@
     }
     .isee_header-image img{
         height:30vh;
+        width:80vw;
     }
     .texto-img{
-       margin-left: 25vw;
+       margin-left: 30vw;
     }
 }
