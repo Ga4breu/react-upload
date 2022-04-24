@@ -17,7 +17,6 @@ const contingencias = [<p className='itemconting'><a href="#possibilities">Aumen
 <p className='itemconting'><a href="#CTA">Perda da interligação Sul-Sudeste</a></p>,
 <p className='itemconting'><a href="#blog">Perda de Transformadores</a></p>,
 <p className='itemconting'><a href="#Footer">Perda de usina</a></p>
-
 ]
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -45,7 +44,7 @@ const Navbar = () => {
     setShow2(!show2);
   }
 
-/* AQUI COMEÇA A PAGE */
+/* AQUI COMEÇA A NAVIGATION BAR */
 
 
 return (

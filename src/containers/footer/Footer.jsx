@@ -6,7 +6,7 @@ import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 const Footer = () => {
   return (
     <div className="gb-body" id="Footer">
-      <h2 className="clevetitle">DIMINUINDO O CARREGAMENTO</h2>
+      <h2 className="clevetitle">PERDA DA USINA LIGADA A BARRA 800</h2>
       <div className="gb-content">
           <div className="gbtexto">
               <h4 >Está contingência simula a perda da Usina de Governador Bento Munhoz (barra 800), a hidrelétrica de maior porte do subsistema Sul. Com a perda dessa Usina, tem-se dois pontos principais para analisar: o primeiro, do ponto de vista do sistema, é realocar um montante de 1365 MW de potência ativa (valor despachado no caso base) e segundo, do ponto de vista numérico, é determinar uma nova barra de referência para o sistema. </h4>    

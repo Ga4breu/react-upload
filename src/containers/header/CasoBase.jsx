@@ -1,6 +1,7 @@
 import React from 'react'
 import './CasoBase.css'
 import sistema from '../../assets/sistema.svg';
+import tabela1 from '../../assets/tabela1.png';
 import { BsArrowRight } from 'react-icons/bs';
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 const Header = () => {
@@ -18,6 +19,17 @@ const Header = () => {
           </TransformWrapper>
         <h4 className='texto-img'>Imagem Ampliável</h4>
         </div>
+        </div>
+        <div className='conteudowrapper'>
+          <div className='texto-cbase'>
+          <h3>A partir disso, o estudo foi desenvolvido no sistema de 65 barras Sul-Sudeste (ALVES, 2007) seguindo os critérios estabelecidos pelo ONS (Operador Nacional do Sistema) e com auxílio da ferramenta computacional ANAREDE. 
+          O ONS determina que, para o estudo de sistema de potência em corrente alternada, devem ser analisadas as condições de carregamento pesado, médio e leve. Além disso, a rede deve estar sujeita a uma certa variabilidade de contingências, tais como perdas de linhas, transformadores e outros equipamentos, com objetivo de definir ações para que o SIN (Sistema Interligado Nacional) opere sem perda de cargas e sem violações inadmissíveis dos seus limites operativos. 
+          Dentre os limites operativos, o ONS determina as tensões entre fases admissíveis para a operação normal e em emergência em 60 Hz, apresentadas na Tabela ao lado.</h3>
+          <h5>ALVES, W. F. (2007). Proposição de sistemas-teste para análise computacional de sistemas de potência (Dissertação) - Pós-Graduação em Computação, Universidade Federal Fluminense – UFF, Niterói.  </h5>
+          </div>
+          <div className='image1'>
+            <img src={tabela1} alt="sistema nortesul"/>
+          </div>
         </div>
         <div className='casobase'id="Header">
           <h3> O CASO BASE </h3>

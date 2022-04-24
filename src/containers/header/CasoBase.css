@@ -39,6 +39,10 @@
     border: 4px solid rgb(156, 41, 41);
     background-color: white;
 }
+.conteudowrapper{
+    display:flex;
+    flex-direction: row;
+}
 .texto-img{
     background-color:white ;
     border-radius: 2rem;
@@ -50,7 +54,23 @@
     margin-top: 1vh;
     margin-bottom: -3vh;
 }
-
+.texto-cbase{
+    color: white;
+    padding-top:12vh;
+    width:40vw;
+    margin-left:3vw;
+    text-align: justify;
+}
+.texto-cbase h5{
+    color: white;
+    padding-top:5vh;
+}
+.image1 img{
+    width:40vw;
+    margin-top:17vh;
+    margin-left: 10vw;
+    border: 4px solid rgb(156, 41, 41);
+}
 .paragrafos1 {
     padding: 2%;
     width: 93vw;
@@ -77,5 +97,14 @@
     }
     .texto-img{
        margin-left: 30vw;
+    }
+    .conteudowrapper{
+        display:inline-block;
+    }
+    .texto-cbase{
+        width: 85vw;
+    }
+    .image1 img{
+        width:75vw;
     }
 }
